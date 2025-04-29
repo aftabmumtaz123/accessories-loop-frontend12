@@ -1,3 +1,4 @@
+require("dotenv").config();
 import axios from "axios";
 const apiURL = process.env.REACT_APP_API_URL;
 console.log(apiURL)
@@ -11,7 +12,7 @@ export const cartListProduct = async () => {
     }
   }
   try {
-    let res = await axios.post(`${apiURL}/api/product/cart-product`, {
+    let res = await axios.post(`https://my-mern-app-9399.onrender.com/api/product/cart-product`, {
       productArray,
     });
     return res.data;

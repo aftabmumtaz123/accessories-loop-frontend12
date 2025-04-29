@@ -1,3 +1,4 @@
+require("dotenv").config();
 import React, { Fragment, useContext, useEffect, useState } from "react";
 import AllReviews from "./AllReviews";
 import ReviewForm from "./ReviewForm";

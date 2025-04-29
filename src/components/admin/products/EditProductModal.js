@@ -1,3 +1,4 @@
+require("dotenv").config();
 import React, { Fragment, useContext, useState, useEffect } from "react";
 import { ProductContext } from "./index";
 import { editProduct, getAllProduct } from "./FetchApi";

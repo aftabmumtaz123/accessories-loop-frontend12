@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import React, { Fragment, useEffect, useContext } from "react";
 import moment from "moment";
 import { fetchOrderByUser } from "./Action";

@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import React, { Fragment, useContext, useEffect, useState } from "react";
 import { getAllProduct, deleteProduct } from "./FetchApi";
 import moment from "moment";

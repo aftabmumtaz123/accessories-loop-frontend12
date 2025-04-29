@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import axios from "axios";
 const apiURL = "https://my-mern-app-9399.onrender.com";
 

@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import React, { Fragment, useContext, useEffect } from "react";
 import { getAllCategory, deleteCategory } from "./FetchApi";
 import { CategoryContext } from "./index";

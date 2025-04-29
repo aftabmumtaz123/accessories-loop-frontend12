@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import React, { Fragment, useEffect, useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { LayoutContext } from "../layout";

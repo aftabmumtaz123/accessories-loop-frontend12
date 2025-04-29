@@ -1,6 +1,6 @@
 require("dotenv").config();
 import axios from "axios";
-const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://my-mern-app-9399.onrender.com";
 
 export const DashboardData = async () => {
   try {

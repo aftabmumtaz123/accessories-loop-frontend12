@@ -1,7 +1,6 @@
 require("dotenv").config();
 import axios from "axios";
 const apiURL = "https://my-mern-app-9399.onrender.com";
-console.log(apiURL)
 
 export const cartListProduct = async () => {
   let carts = JSON.parse(localStorage.getItem("cart"));

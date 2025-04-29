@@ -3,7 +3,7 @@ import React, { Fragment, useContext, useState, useEffect } from "react";
 import { ProductContext } from "./index";
 import { editProduct, getAllProduct } from "./FetchApi";
 import { getAllCategory } from "../categories/FetchApi";
-const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://my-mern-app-9399.onrender.com";
 
 const EditProductModal = (props) => {
   const { data, dispatch } = useContext(ProductContext);
